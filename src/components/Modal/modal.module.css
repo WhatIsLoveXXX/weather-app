@@ -1,0 +1,76 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  font-weight: 700;
+}
+
+.modalContent {
+  padding: 20px;
+  border-radius: 12px;
+  background-image: linear-gradient(135deg, #97abff 10%, #123597 100%);
+  width: 700px;
+  height: 600px;
+  transition: 0.4s all;
+}
+
+.weatherName {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.weatherName > img {
+  width: 75px;
+}
+
+.weatherBlock {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherTemp {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.weatherTemp > span {
+  font-weight: 100;
+}
+
+.weatherFeels {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.weatherDescription {
+  font-weight: 100;
+  text-transform: capitalize;
+  margin-bottom: 70px;
+}
+
+.weatherInfo {
+  font-size: 40px;
+  border-left: 2px solid #ff4500;
+  border-right: 2px solid #ff4500;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+}
+
+.weatherInfo > li {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
